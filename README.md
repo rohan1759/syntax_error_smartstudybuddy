@@ -57,6 +57,12 @@ Screenshots
 
 ---
 
+## 🌐 Backend Repository Link
+
+ - https://github.com/rohan1759/syntax_error_smartstudybuddy_backend
+
+---
+
 ## 🌐 Deployment Link
 
 👉 [Live Demo](https://smartstudybuddy.netlify.app/)
