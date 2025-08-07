@@ -9,7 +9,7 @@ function App() {
   const navigate = useNavigate();
   
   return (
-    <Router>
+    <>
       {/* Header Section */}
       <header className="header">
         <div className="logo-container" onClick={() => navigate('/home')}>
@@ -41,7 +41,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/answer" element={<Answer />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 
