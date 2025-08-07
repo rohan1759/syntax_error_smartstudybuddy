@@ -59,7 +59,11 @@ Screenshots
 
 ## 🌐 Deployment Link
 
-👉 [Live Demo](https://smart-study-buddy.example.com)
+👉 [Live Demo](https://smartstudybuddy.netlify.app/)
+
+    login creds
+    email: hello@gmail.com
+    password: 12345678
 
 ---
 
