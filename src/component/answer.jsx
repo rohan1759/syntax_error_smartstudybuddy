@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import "./answer.css"; // Assuming you have some styles for the answer component
 
 const Answer = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [topic, setTopic] = useState("");
   const [response, setResponse] = useState("");
   const [loading, setLoading] = useState(false);
@@ -107,9 +108,9 @@ const Answer = () => {
           )}
         </div>
         <div className="action-buttons" style={{ marginTop: "2rem", textAlign: "center" }}>
-            <button onClick={() => window.location.href = `/home`}>ASK ANOTHER</button>
+            <button onClick={() => navigate(`/home`)}>ASK ANOTHER</button>
             <button onClick={() => fullAnswer()}>FULL RUNDOWN</button>
-            <button onClick={() => window.location.href = `/home`}>QUICK CHECK</button>
+            <button onClick={() => navigate(`/home`)}>QUICK CHECK</button>
         </div>
       </div>
 

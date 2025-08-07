@@ -1,16 +1,18 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 
 import Home from './component/home';
 import Answer from './component/answer';
 import Login from './component/login';
 
 function App() {
+  const navigate = useNavigate();
+  
   return (
     <Router>
       {/* Header Section */}
       <header className="header">
-        <div className="logo-container" onClick={() => window.location.href = '/home'}>
+        <div className="logo-container" onClick={() => navigate('/home')}>
           <div className="logo-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
               <path
