@@ -1,0 +1,159 @@
+
+/* .action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.action-buttons button {
+    min-width: 180px;
+    margin: 0;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(90deg, #6366f1 0%, #3b82f6 100%);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.12);
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.action-buttons button:hover {
+    background: linear-gradient(90deg, #3b82f6 0%, #6366f1 100%);
+    transform: translateY(-2px) scale(1.03);
+}
+
+@media (max-width: 700px) {
+    .action-buttons {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    .action-buttons button {
+        width: 100%;
+        min-width: unset;
+    }
+} */
+
+/* answer.css */
+
+.answer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+  background: linear-gradient(to right, #e3f2fd, #fce4ec);
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.answer-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.answer-card:hover {
+  transform: translateY(-4px);
+}
+
+.answer-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.answer-card h3 {
+  font-size: 1.2rem;
+  color: #444;
+  margin-top: 1.2rem;
+}
+
+.answer-card p {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.75rem;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.loader {
+  font-size: 1.1rem;
+  color: #1976d2;
+  display: flex;
+  align-items: center;
+}
+
+.loader::after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  border: 2px solid #1976d2;
+  border-top-color: transparent;
+  border-radius: 50%;
+  margin-left: 10px;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.action-buttons button {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.action-buttons button:hover {
+  background-color: #3700b3;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .answer-card {
+    padding: 1.5rem;
+  }
+
+  .answer-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .answer-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .answer-card p {
+    font-size: 0.95rem;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
