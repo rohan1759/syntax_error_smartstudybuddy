@@ -22,6 +22,14 @@ Students often need quick and reliable explanations of various academic topics, 
 **Smart Study Buddy** offers bite-sized, intelligent summaries with voice interaction and quiz elements, making learning more interactive and fun.
 
 ---
+Screenshots
+
+![App Screenshot](./screenshot/1.png)
+![App Screenshot](./screenshot/2.png)
+![App Screenshot](./screenshot/3.png)
+![App Screenshot](./screenshot/4.png)
+
+---
 
 ## 🚀 Features Implemented
 
