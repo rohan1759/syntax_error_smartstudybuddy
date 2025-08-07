@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 const Home = () => {
-
+    const navigate = useNavigate();
     const [topic, setTopic] = useState('');
 
     const handleSubmit = async (e) => {
@@ -29,7 +30,8 @@ const Home = () => {
             // const data = await response.json();
             // console.log('Server response:', data);
             // Redirect to the answer page with the response
-            window.location.href = `/answer?q=${encodeURIComponent(topic)}`;
+            // window.location.href = `/answer?q=${encodeURIComponent(topic)}`;
+            navigate(`/answer?q=${encodeURIComponent(topic)}`);
         } catch (error) {
             console.error('Error:', error);
         }
