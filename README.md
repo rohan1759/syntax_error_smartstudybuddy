@@ -1,12 +1,57 @@
-# React + Vite
+# 🤖 Smart Study Buddy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**An AI-inspired educational companion that delivers concise topic summaries, voice-based interaction, and interactive learning.**  
+Whether you're cramming for a test or just curious, Smart Study Buddy makes studying engaging and efficient.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👥 Team Members
 
-## Expanding the ESLint configuration
+| Name              | Role                  |
+|-------------------|-----------------------|
+| ROHAN RAM         | Full-Stack Developer  |
+| OSAMA BIN ANSARI  | Backend Developer     |
+|YUVRAJ SINGH BHOGAL| UI/UX Designer        |
+| IRFAN RAZA        | Frontend Developer    |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Problem Statement
+
+Students often need quick and reliable explanations of various academic topics, but traditional resources can be too lengthy or overwhelming.  
+**Smart Study Buddy** offers bite-sized, intelligent summaries with voice interaction and quiz elements, making learning more interactive and fun.
+
+---
+
+## 🚀 Features Implemented
+
+- ✅ Topic input with history saved in local storage
+- ✅ AI-style smart summary generation 
+- ✅ Fun fact or quiz question related to the topic
+- ✅ Responsive design for mobile and desktop
+- ✅ Disscusing Forum
+
+---
+
+## 🛠 Tech Stack Used
+
+**Frontend:**  
+- HTML5, CSS3, JavaScript,React    
+- Web Speech API (for voice input & reader)
+
+**Backend :**  
+- Node.js + Express 
+
+**APIs & Libraries:**  
+- Grok API  
+- LocalStorage API  
+- Web Speech API (SpeechRecognition & SpeechSynthesis)
+
+---
+
+## 🌐 Deployment Link
+
+👉 [Live Demo](https://smart-study-buddy.example.com)
+
+---
+
