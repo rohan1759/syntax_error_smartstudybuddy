@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./answer.css"; // Assuming you have some styles for the answer component
+import TextToSpeech from "./readAloud";
 
 const Answer = () => {
   const location = useLocation();
@@ -90,8 +91,13 @@ const Answer = () => {
           }}
         >
           <h2>AI Summary</h2>
-          <h3 style={{ marginTop: "1rem" }}>
-            <strong>Topic:</strong> {decodeURIComponent(topic)}
+          <h3 className="topic" style={{ marginTop: "1rem" }}>
+            <strong>Topic:</strong>
+            <strong>
+              {decodeURIComponent(topic)}
+            </strong>
+
+            <TextToSpeech text={response} />
           </h3>
 
           {loading ? (

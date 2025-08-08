@@ -125,6 +125,21 @@
   background: #f3f4f6;
 }
 
+.mic-icon {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  border: 1px solid #8b5cf6;
+  border-radius: 50%;
+  padding: 2px 2px;
+}
+
+.topic{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
 .get-summary-btn {
   background: #8b5cf6;
   color: white;
