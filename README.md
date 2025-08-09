@@ -34,6 +34,7 @@ Screenshots
 ## 🚀 Features Implemented
 
 - ✅ Topic input with history saved in local storage
+- ✅ Voice interaction
 - ✅ AI-style smart summary generation 
 - ✅ Fun fact or quiz question related to the topic
 - ✅ Responsive design for mobile and desktop
